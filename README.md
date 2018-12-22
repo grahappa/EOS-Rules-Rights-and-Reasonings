@@ -26,7 +26,7 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 ## Rules
 
-### Article XXX - YYY clause 
+### Article XXX - Block Producer Role 
 From an infinite pool of candidates, the top twenty one Block Producers determined by a EOS Token Holder vote of staked tokens, shall execute code that creates an operating system-like construct based on accounts, authentication, automated contracts, databases, asynchronous communication, and scheduling, across many CPU cores or clusters, resulting in a feeless scalable decentralized blockchain architecture upon which applications and their services can be built.
 
 ### Article XXX - YYY clause 
