@@ -26,34 +26,34 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 ## Rules
 
-### Article XXX - Block Producer Role 
+### Article XXX - Block Producer Role  
 From an infinite pool of candidates, the top twenty one Block Producers determined by a EOS Token Holder vote of staked tokens, shall execute code that creates an operating system-like construct based on accounts, authentication, automated contracts, databases, asynchronous communication, and scheduling, across many CPU cores or clusters, resulting in a feeless scalable decentralized blockchain architecture upon which applications and their services can be built.
 
-### Article XXX - YYY clause 
-Block Producers shall execute code that defines a collective decision making process to validate transactions thru a Decentralized Consensus Algorithm known as Delegated Proof of Stake(DPOS), which shall be considered Byzantine Fault Tolerant(BFT) by it's capacity to coordinate strategic responsiveness to system fault or attack. 
+### Article XXX - Delegated Proof of Stake
+Block Producers shall execute code that defines a collective decision making process to validate transactions thru a decentralized consensus algorithm known as Delegated Proof of Stake(DPOS), which shall be considered Byzantine Fault Tolerant(BFT) by it's capacity to coordinate strategic responsiveness to system fault or attack. 
 
-### Article XXX - YYY clause 
+### Article XXX - Block Producer Voting
 EOS Token Holders shall elect Block Producers through a continuous approval voting system based on thier ability to effectively produce blocks, contribute to the EOS ecosystem and operate in accordance to this governing document.  EOS Token Holder votes shall decay approximately 1% per week.
 
-### Article XXX - YYY clause 
+### Article XXX - Native Unit of Utility
 The EOS token shall be the native unit of value representing access to utility resources on the EOS Network including but not limited to; 
 
 * Bandwidth and Log Storage (Disk), 
 * Computation and Computational Backlog (CPU) and
 * State Storage (RAM).
 
-### Article XXX - YYY clause 
+### Article XXX - Sanctity and Governence of Contract
 Block producers shall not freeze or modify contracts, except;
 
 * When Block Producers deem a contract not operating as intended. The determination of the intent of code by Block Producers shall consider code, human-readable and machine-redable Ricardian Contracts, user interfaces, and actual use. If there is a dispute over the intent of code, then intent shall be determined by a super majority vote of elected Block Producers. A super majority is defined as 15 of the 21 elected Block Producers.  This super majority may, at their discretion, freeze a smart contract during an active dispute until such time as code to amend the smart contract is available and vetted. The parties to the dispute must produce proposed replacement code to the smart contract. Block Producers may charge a reasonable fee and/or place other reasonable requirements upon the parties to the dispute.  Ricardian contractual terms that cannot be enforced by properly functioning code are beyond the scope of the producers authority to evaluate and enforce.
 
-### Article XXX - YYY clause 
+### Article XXX - Self Liability
 Contributors to this system including smart contract developers and authors of governing documents are not liable for damages caused by unintentional bugs in code or unintentional effects of governing documents.  All Parties are responsible for auditing smart contracts and their equivalent Ricardian contract before use.
 
-### Article XXX - YYY clause 
+### Article XXX - Ricardian Contract Disclosure
 All services facilitating the construction and signing of transactions on behalf of Accounts shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
 
-### Article XXX - YYY clause 
+### Article XXX - Ricardian Contract  Acceptance
 A Ricardian Contract is deemed accepted when a transaction based on that contract is incorporated into the blockchain.
 
 ### Article XXX - YYY clause 
