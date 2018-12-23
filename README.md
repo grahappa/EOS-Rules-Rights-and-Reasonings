@@ -51,37 +51,31 @@ Block producers shall not freeze or modify contracts, except;
 Contributors to this system including smart contract developers and authors of governing documents are not liable for damages caused by unintentional bugs in code or unintentional effects of governing documents.  All Parties are responsible for auditing smart contracts and their equivalent Ricardian contract before use.
 
 ### Article XXX - Ricardian Contract Disclosure
-All services facilitating the construction and signing of transactions on behalf of Accounts shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
+All service providers facilitating the construction and signing of transactions on behalf of EOS Account Holders shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
 
 ### Article XXX - Ricardian Contract  Acceptance
 A Ricardian Contract is deemed accepted when a transaction based on that contract is incorporated into the blockchain.
 
-### Article XXX - YYY clause 
-No Party shall have a fiduciary responsibility to support the value of the EOS token. No Party shall be authorized to hold assets, borrow, speak nor contract on behalf of EOS token holders or the blockchain collectively. This blockchain shall have no owners, managers, or fiduciaries.
+### Article XXX - No Fiduciary Relationships
+No Party shall have a fiduciary responsibility to support the value of the EOS token. 
 
-### Article XXX - YYY clause 
+### Article XXX - No Representation
+No Party shall be authorized to hold assets, borrow, speak nor contract on behalf of EOS token holders or the blockchain collectively. This blockchain shall have no owners, managers, or fiduciaries.
+
+### Article XXX - No Jurisdiction
 No Party shall claim a seat of governance or jurisdiction for the EOS Blockchain.
 
-### Article XXX - YYY clause 
-Funds owned in common to all EOS Token Holders in proportion to their tokens that are held in the common accounts; eosio.names, eosio.ramfee, eosio.saving.
-
-### Article XXX - YYY clause 
-EOS accounts held in common to all token holders in proportion to their tokens include the following;
+### Article XXX - Token-Weighted Common Accounts
+EOS accounts held in common to all EOS Account Holders and in proportion to their tokens include the following;
 
 * eosio.names,
 * eosio.ramfee, 
 * eosio.saving.
 
-Parties voluntarily consent for all other Parties to permanently and irrevocably retain, copy, analyze, and distribute all broadcast transactions and derivative information. Use of the blockchain shall constitute consent to its terms.
+### Article XXX - Voluntarily Consent
+All Parties voluntarily consent for all other Parties to permanently and irrevocably retain, copy, analyze, and distribute all broadcast transactions and derivative information. Use of the blockchain shall constitute consent to its terms.
 
-### Article XXX - YYY clause 
-This governing document may be amended by a direct vote Referendum in which all EOS Token holders may vote per proposal as prescribed in this document. Referendums proposing amendments to this governing document shall be considered ratified when 15 of 21 Block Producers execute code accepting the amended governing document. 
-
-
-### Article XXX - YYY clause 
-All actions executed on the EOS Blockchain are bound to the entirety of this governing document including those made directly by EOS Account Holders and any service providers on thier behalf.
-
-### Article XXX - YYY clause
+### Article XXX - On-Chain Referendums
 Referendums must be submitted on-chain either in full text or as a hash of the referendum text. A Referendum is considered approved for execution once 
 
 * at least 15% of issued tokens have staked and registered a vote for a specific referendum,
@@ -90,26 +84,29 @@ Referendums must be submitted on-chain either in full text or as a hash of the r
 
 * These requirements must remain satisfied above the minimum requirements for a period of at least 30 consecutive days within a 120-day sustainment period per Referendum. Should a Referendum not be approved for execution within the 120-day period, it is considered expired and must be resubmitted if another vote is desired. The 120-day period starts when the transaction which includes a referendum is appended to the blockchain. EOS tokens issued during the 120-period are counted toward the total issued amount calculation.  Referendums may then be enacted by a super majority of Block Producers defined as 15 of the 21 elected Block Producers.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Nomination
 Block Producer `{{ producer }}` candidates shall nominate themselves and register their intent to produce blocks on the EOS Blockchain by executing the `{{ regproducer }}` contract.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Key Control
 Elected Block Producers shall produce blocks by executing signed `{{ eosio }}` contracts with their unique cryptographic private `{{ producer_key }}` and attest to maintain the secrecy of this key under their sole control.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Non-Performance
 Block Producers shall resubmit the `{{ regproducer }}` contract with a `{{ producer_key }}` of `{{ null }}` if they are unable to perform obligations of the `{{ regproducer }}` contract.
 
-### Article XXX - YYY clause
+### Article XXX - Objective Validity
 Block Producers shall acknowledge that a block is considered 'Objectively Valid' if it conforms to the deterministic blockchain rules in force at the time of its creation, and is 'Objectively Invalid' if it fails to conform to those rules.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Keys
 Block Producers shall only use their {{producer_key}} to sign messages under the following scenarios:
 
 * Proposing an objectively valid block at the time appointed by the block scheduling algorithm.
 * Pre-confirming an objectively valid block produced by another producer.
 * Confirming a block for which {{producer}} has received pre-confirmation messages from more than 2/3 of the 21 active Block Producers.
 
-### Article XXX - YYY clause
+### Article XXX - No Double-Signing
+Block Producers shall not double-sign for a timestamp or block number.
+
+### Article XXX - Violations of Block Production
 Block Producers shall not;
     
 * Sign two different block proposals with the same timestamp with {{producer_key}} 
@@ -118,17 +115,14 @@ Block Producers shall not;
 * Sign a pre-confirmation for an objectively invalid block 
 * Sign a confirmation for a block which they do not possess pre-confirmation messages from more than 2/3 of the 21 active Block Producers.
 
-### Article XXX - YYY clause
-Block Producers shall not double-sign for a timestamp or block number.
-
-### Article XXX - YYY clause
-Block Producers shall not interfere with the Block Producer election process by;
+### Article XXX - Violations of the Election Process
+Block Producers shall not interfere with the Block Producer voting by;
 
 * Processing all Block Producer election transactions that occur in blocks they create,
 * Signing all objectively valid blocks they create that contain election transactions,
 * Signing all pre-confirmations and confirmations necessary to facilitate transfer of control to the next set of Block Producers as determined by the system contract.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Disqualification
 Elected Block Producers may disqualify another {{ producer }} by a vote of 15 of 21 Elected Block Producers, in the event the {{ producer }} is unable to produce blocks or is unable to be reached based on criteria agreed to among Block Producers.
 
 ### Article XXX - YYY clause
@@ -206,6 +200,14 @@ Block Producers shall execute no code that denies, abridges or impairs the Stand
 ### Article XXX - YYY clause
 Block Producers shall not offer nor accept anything of value in exchange for a vote of any type, nor shall any Member unduly influence the vote of another.
 
+### Article XXX - Scope of This 
+All actions executed on the EOS Blockchain are bound to the entirety of this governing document including those made directly by EOS Account Holders and any service providers on thier behalf.
+
+### Article XXX - Entire Agreement
+This agreement represents the entire understanding between the parties with respect to its subject matter and supersedes any previous communication or agreements that may exist.
+
+### Article XXX - Amendments to This Governing Document
+This governing document may be amended by a direct vote Referendum in which all EOS Token holders may vote per proposal as prescribed in this document. Referendums proposing amendments to this governing document shall be considered ratified when 15 of 21 Block Producers execute code accepting the amended governing document. 
 
 ## Rights
 
