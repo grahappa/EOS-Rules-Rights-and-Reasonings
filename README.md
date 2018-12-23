@@ -216,8 +216,8 @@ Block Producers shall execute no code that favors, abridges or denies Actions ba
 ### Article XXX - Freedom of Privacy
 Block Producers shall execute no code that diminishes, invalidates or impairs the strength of encryption that may protect accounts, contracts, or any aspect of the system.
 
-### Article XXX - Freedom From Discrimination.
-Block Producers shall execute no code that denies, abridges or impairs an account based based on race, color, religion, sex, or national origin.
+### Article XXX - Freedom From Discrimination
+Block Producers shall execute no code that denies, abridges or impairs an account based based on race, color, religion, sex, or national origin or political affiliation.
 
 ### Article XXX - Freedom to Transact
 Block Producers shall execute no code that freezes, invalidates or deletes accounts or their associated resources, including but not limited to processing power, network bandwidth and memory.
@@ -226,7 +226,7 @@ Block Producers shall execute no code that freezes, invalidates or deletes accou
 Block Producers shall execute no code that seizes or transfers or executes any transaction without the explicit consent of the account holder.
 
 ### Article XXX - Freedom to Proxy
-Block Producers shall execute no code that denies, abridges or impairs a direct or proxied Block Producer or Referendum vote. 
+Block Producers shall execute no code that denies, abridges or impairs the direct or proxied vote of either Block Producer or Referendum. 
 
 
 ## Reasonings
