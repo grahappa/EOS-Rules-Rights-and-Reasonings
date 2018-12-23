@@ -3,7 +3,7 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 ## Preamble 
 
-**We The Vested** Account Holders of the EOS Blockchain, 
+**We The Vested Account Holders of the EOS Blockchain,** 
 
 * In order to form a more perfect distributed ledger of transactions, 
 * Using cryptographically secured accounts, structured actions, 
@@ -11,7 +11,7 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 * Built on a globally decentralized platform of free expression,
 * That is without jurisdiction or censorship,
 
-**E**stablish these Rules, Rights and Reasonings for the EOS Blockchain.
+**Establish these Rules, Rights and Reasonings for the EOS Blockchain.**
 
 **H**erein represents the human-readable intent of the underlying source code protocol of the EOS Blockchain which enables Block Producers to;  
 
