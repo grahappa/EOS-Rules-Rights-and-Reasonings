@@ -26,6 +26,9 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 ## Rules
 
+### Article XXX - Open Source Software
+Block Producers shall only execute code that is offered under an open source software license.
+
 ### Article XXX - Block Producer Role  
 From an infinite pool of candidates, the top twenty one Block Producers determined by a EOS Token Holder vote of staked tokens, shall execute code that creates an operating system-like construct based on accounts, authentication, automated contracts, databases, asynchronous communication, and scheduling, across many CPU cores or clusters, resulting in a feeless scalable decentralized blockchain architecture upon which applications and their services can be built.
 
@@ -174,9 +177,6 @@ Block Producers shall not set their RAM supply parameter to more RAM than their 
 
 ### Article XXX - Block Producer Compensation
 Block Producer shall be compensated for services provided by an automated 1% rate of inflation to the EOS token and transferred from the `{{ eosio.vpay }}` account to their account submitted to the `{{ regproducer }}` contract.
-
-### Article XXX - Open Source Software
-Block Producers shall only execute code that is offered under an open source software license.
 
 ### Article XXX - Authentication Credentials
 Block Producers shall not be responsible for maintaining the authentication credentials of EOS Accounts, including but not limited to the secrecy of private keys, except for their own accounts or those they control while fulfilling their role of Block Producer as defined in this document.
