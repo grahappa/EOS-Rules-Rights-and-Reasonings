@@ -27,7 +27,7 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 ## Rules
 
 ### Article XXX - Block Producer Role  
-From an infinite pool of candidates, the top twenty one Block Producers determined by a EOS Token Holder vote of staked tokens, shall execute code that creates an operating system-like construct based on accounts, authentication, automated contracts, databases, asynchronous communication, and scheduling, across many CPU cores or clusters, resulting in a feeless scalable decentralized blockchain architecture upon which applications and their services can be built.
+From an infinite pool of candidates, the top twenty one Block Producers determined by an EOS Token Holder vote of staked tokens, shall execute code that creates an operating system-like construct based on accounts, authentication, automated contracts, databases, asynchronous communication, and scheduling, across many CPU cores or clusters, resulting in a feeless scalable decentralized blockchain architecture upon which applications and their services can be built.
 
 ### Article XXX - Open Source Software
 Block Producers shall only execute code that is offered under an open source software license.
@@ -38,13 +38,6 @@ Block Producers shall execute code that defines a collective decision making pro
 ### Article XXX - Block Producer Voting
 EOS Token Holders shall elect Block Producers through a continuous approval voting system based on thier ability to effectively produce blocks, contribute to the EOS ecosystem and operate in accordance to this governing document.  EOS Token Holder votes shall decay approximately 1% per week.
 
-### Article XXX - Native Unit of Utility
-The EOS token shall be the native unit of value representing access to utility resources on the EOS Network including but not limited to; 
-
-* Bandwidth and Log Storage (Disk), 
-* Computation and Computational Backlog (CPU) and
-* State Storage (RAM).
-
 ### Article XXX - Sanctity and Governence of Contract
 Block producers shall not freeze or modify contracts, except;
 
@@ -52,6 +45,20 @@ Block producers shall not freeze or modify contracts, except;
 
 ### Article XXX - Self Liability
 Contributors to this system including smart contract developers and authors of governing documents are not liable for damages caused by unintentional bugs in code or unintentional effects of governing documents.  All Parties are responsible for auditing smart contracts and their equivalent Ricardian contract before use.
+
+### Article XXX - Native Unit of Utility
+The EOS token shall be the native unit of value representing access to utility resources on the EOS Network including but not limited to; 
+
+* Bandwidth and Log Storage (Disk), 
+* Computation and Computational Backlog (CPU) and
+* State Storage (RAM).
+
+### Article XXX - Token-Weighted Common Accounts
+EOS accounts held in common to all EOS Account Holders and in proportion to their tokens include the following;
+
+* eosio.names,
+* eosio.ramfee, 
+* eosio.saving.
 
 ### Article XXX - Ricardian Contract Disclosure
 All service providers facilitating the construction and signing of transactions on behalf of EOS Account Holders shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
@@ -67,13 +74,6 @@ No Party shall be authorized to hold assets, borrow, speak nor contract on behal
 
 ### Article XXX - No Jurisdiction
 No Party shall claim a seat of governance or jurisdiction for the EOS Blockchain.
-
-### Article XXX - Token-Weighted Common Accounts
-EOS accounts held in common to all EOS Account Holders and in proportion to their tokens include the following;
-
-* eosio.names,
-* eosio.ramfee, 
-* eosio.saving.
 
 ### Article XXX - Voluntarily Consent
 All Parties voluntarily consent for all other Parties to permanently and irrevocably retain, copy, analyze, and distribute all broadcast transactions and derivative information. Use of the blockchain shall constitute consent to its terms.
