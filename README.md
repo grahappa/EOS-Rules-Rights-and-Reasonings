@@ -199,14 +199,15 @@ Block Producers shall execute no code that denies, abridges or impairs the Stand
 ### Article XXX - No Vote Buying or Trading
 Block Producers shall not offer nor accept anything of value in exchange for a vote of any type, nor shall any Member unduly influence the vote of another.
 
-### Article XXX - Scope of This 
+### Article XXX - Scope of This Governing Document
 All actions executed on the EOS Blockchain are bound to the entirety of this governing document including those made directly by EOS Account Holders and any service providers on thier behalf.
-
-### Article XXX - Entire Agreement
-This agreement represents the entire understanding between the parties with respect to its subject matter and supersedes any previous communication or agreements that may exist.
 
 ### Article XXX - Amendments to This Governing Document
 This governing document may be amended by a direct vote Referendum in which all EOS Token holders may vote per proposal as prescribed in this document. Referendums proposing amendments to this governing document shall be considered ratified when 15 of 21 Block Producers execute code accepting the amended governing document. 
+
+### Article XXX - Entire Agreement
+The contents of this Governing Document in it's entirety, represents an agreement of the entire understanding between All Parties with respect to its subject matter and supersedes any previous communication or agreements that may exist.
+
 
 ## Rights
 
