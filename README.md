@@ -26,11 +26,11 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 ## Rules
 
-### Article XXX - Open Source Software
-Block Producers shall only execute code that is offered under an open source software license.
-
 ### Article XXX - Block Producer Role  
 From an infinite pool of candidates, the top twenty one Block Producers determined by a EOS Token Holder vote of staked tokens, shall execute code that creates an operating system-like construct based on accounts, authentication, automated contracts, databases, asynchronous communication, and scheduling, across many CPU cores or clusters, resulting in a feeless scalable decentralized blockchain architecture upon which applications and their services can be built.
+
+### Article XXX - Open Source Software
+Block Producers shall only execute code that is offered under an open source software license.
 
 ### Article XXX - Delegated Proof of Stake
 Block Producers shall execute code that defines a collective decision making process to validate transactions thru a decentralized consensus algorithm known as Delegated Proof of Stake(DPOS), which shall be considered Byzantine Fault Tolerant(BFT) by it's capacity to coordinate strategic responsiveness to system fault or attack. 
