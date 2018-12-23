@@ -106,7 +106,7 @@ Block Producers shall only use their {{producer_key}} to sign messages under the
 ### Article XXX - No Double-Signing
 Block Producers shall not double-sign for a timestamp or block number.
 
-### Article XXX - Violations of Block Production
+### Article XXX - Block Production Violations
 Block Producers shall not;
     
 * Sign two different block proposals with the same timestamp with {{producer_key}} 
@@ -115,89 +115,88 @@ Block Producers shall not;
 * Sign a pre-confirmation for an objectively invalid block 
 * Sign a confirmation for a block which they do not possess pre-confirmation messages from more than 2/3 of the 21 active Block Producers.
 
-### Article XXX - Violations of the Election Process
-Block Producers shall not interfere with the Block Producer voting by;
+### Article XXX - Voting Process Violations
+Block Producers shall not interfere with the Block Producer or Referendum voting by;
 
-* Processing all Block Producer election transactions that occur in blocks they create,
-* Signing all objectively valid blocks they create that contain election transactions,
+* Processing all vote transactions that occur in blocks they create,
+* Signing all objectively valid blocks they create that contain vote transactions,
 * Signing all pre-confirmations and confirmations necessary to facilitate transfer of control to the next set of Block Producers as determined by the system contract.
 
 ### Article XXX - Block Producer Disqualification
 Elected Block Producers may disqualify another {{ producer }} by a vote of 15 of 21 Elected Block Producers, in the event the {{ producer }} is unable to produce blocks or is unable to be reached based on criteria agreed to among Block Producers.
 
-### Article XXX - YYY clause
+### Article XXX - Active Block Producer Obligations
 Block Producers earning rewards shall;
 
 * Provide a public endpoint allowing at least 100 peers to maintain synchronization with the blockchain and/or
-* Submit transactions to be included.
+* Submit transactions to be included into the blockchain.
 * Maintain at least 1 validating node with full state and signature checking.
-* Publically report any objectively invalid blocks produced by the active Block * Producers via a publically reported method to be agreed upon among Block Producers.
+* Publically report any objectively invalid blocks produced by the active Block Producers via a publically reported method to be agreed upon among Block Producers.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Peer Authentication
 Block Producers shall authenticate peers as necessary to prevent abuse and denial of service attacks without discriminating against non-abusive peers.
 
-### Article XXX - YYY clause
+### Article XXX - Block Production Order and Billing
 Block Producers shall process transactions on a First-In-First-Out best-effort basis and to honestly bill transactions for measured execution time.
 
-### Article XXX - YYY clause
+### Article XXX - Block Production Falsification
 Block Producers shall not derive profit by manipulating;
     
 * The order in which transactions are included into a block,
-    
 * The hash of any block produced.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Beneficiary Disclosure
 Block Producers shall disclose all ultimate beneficiaries of their organization who own more than 10% and all direct shareholders.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Cooperation
 Block Producers shall cooperate with other Block Producers to carry out their respective and mutual obligations under this contract, including but not limited to maintaining network stability and a valid blockchain.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Disclosure
 Block Producers shall maintain a website hosted which contains up-to-date information on all disclosures required by this contract.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Server Location
 Block Producers shall set a server location that minimizes latency between both previous and next peers within the round-robin block producing schedule. 
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Time Synchronization
 Block Producers shall maintain time synchronization within 10 ms of global atomic clock time using a method agreed to among Block Producers.
 
-### Article XXX - YYY clause
+### Article XXX - Block Production Scheduling
 Block Producers shall not produce blocks before their scheduled time unless they have received all blocks produced by the prior scheduled Block Producer.
 
-### Article XXX - YYY clause
+### Article XXX - Block Production Timing
 Block Producers shall not publish blocks with timestamps more than 500ms in the future unless the prior block is more than 75% full by either CPU or network bandwidth metrics.
 
-### Article XXX - YYY clause
-Block Producers shall cease producing blocks if they are unable to provide the RAM approved by 2/3+ Block Producers as shown in the system parameters.
+### Article XXX - Block Producer RAM Requirements
+Block Producers shall cease producing blocks if they are unable to provide the RAM as shown in the system parameters and approved by 15 of 21 Elected Block Producers.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer RAM Overstatement
 Block Producers shall not set their RAM supply parameter to more RAM than their nodes actually contain.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Compensation
 Block Producer shall be compensated for services provided by an automated 1% rate of inflation to the EOS token and transferred from the `{{ eosio.vpay }}` account to their account submitted to the `{{ regproducer }}` contract.
 
-### Article XXX - YYY clause
-Block Producers shall only execute code that offered under an open source license.
+### Article XXX - Open Source Software
+Block Producers shall only execute code that is offered under an open source software license.
 
-### Article XXX - YYY clause
+### Article XXX - Authentication Credentials
 Block Producers shall not be responsible for maintaining the authentication credentials of EOS Accounts, including but not limited to the secrecy of private keys, except for their own accounts or those they control while fulfilling their role of Block Producer as defined in this document.
 
-### Article XXX - YYY clause
-Block Producers shall review, test, implement, optimize, and upgrade the code defining the active EOS blockchain codebase.  Any attempt to alter any governing document, as well as any action that may alter the current state of any tokens considered common to EOS Accounts, is prohibited without prior authorization obtained through Referendum as defined in this document.
+### Article XXX - Block Producer Scope of Operations
+Block Producers shall review, test, implement, optimize, and upgrade the code defining the active EOS blockchain codebase.  Block Producers shall not alter any governing document or execute actions that may alter the current state of any tokens considered common to EOS Accounts without prior authorization obtained through Referendum as defined in this document.
 
-### Article XXX - YYY clause
+### Article XXX - Proxy Vote Delegation
 Block Producers shall execute code that permits EOS Account Holders to delegate their right to cast Referendum or Block Producer votes to an EOS Vote Proxy of their choice.  Proxied votes of any kind, shall decay at the same rate as direct EOS Token Holder votes as defined in this governing document.
 
-### Article XXX - YYY clause
+### Article XXX - Proxy Registration
 EOS Vote Proxies shall register their intent to proxy the votes of other EOS Account Holders by executing the `{{ regproxy }}` contract.  
 
-### Article XXX - YYY clause
+### Article XXX - No Service Provider Favor or Discrimination
 Block Producers shall execute no code that discriminates or favors any service provider over another.
 
-### Article XXX - YYY clause
+### Article XXX - Block Producer Stand-bys 
 Block Producers shall execute no code that denies, abridges or impairs the Stand-by Block Producers in preparing to produce valid blocks.
 
-### Article XXX - YYY clause
+### Article XXX - No Vote Buying or Trading
 Block Producers shall not offer nor accept anything of value in exchange for a vote of any type, nor shall any Member unduly influence the vote of another.
 
 ### Article XXX - Scope of This 
@@ -211,26 +210,23 @@ This governing document may be amended by a direct vote Referendum in which all 
 
 ## Rights
 
-### Article XXX - YYY clause
+### Article XXX - Freedom of Expression
 Block Producers shall execute no code that favors, abridges or denies Actions based on their content.
 
-### Article XXX - YYY clause
+### Article XXX - Freedom of Privacy
 Block Producers shall execute no code that diminishes, invalidates or impairs the strength of encryption that may protect accounts, contracts, or any aspect of the system.
 
-### Article XXX - YYY clause
+### Article XXX - Freedom From Discrimination.
+Block Producers shall execute no code that denies, abridges or impairs an account based based on race, color, religion, sex, or national origin.
+
+### Article XXX - Freedom to Transact
 Block Producers shall execute no code that freezes, invalidates or deletes accounts or their associated resources, including but not limited to processing power, network bandwidth and memory.
 
-### Article XXX - YYY clause
+### Article XXX - Freedom From Impersonation
 Block Producers shall execute no code that seizes or transfers or executes any transaction without the explicit consent of the account holder.
 
-### Article XXX - YYY clause
-Block Producers shall execute no code that denies, abridges or impairs a  direct or proxied Block Producer or Referendum vote. 
-
-### Article XXX - YYY clause
-Block Producers shall execute no code that directly supports mediation, arbitration or terrestrial litigation.
-
-### Article XXX - YYY clause
-Block Producers shall execute no code that denies, abridges or impairs an account based based on race, color, religion, sex, or national origin.
+### Article XXX - Freedom to Proxy
+Block Producers shall execute no code that denies, abridges or impairs a direct or proxied Block Producer or Referendum vote. 
 
 
 ## Reasonings
