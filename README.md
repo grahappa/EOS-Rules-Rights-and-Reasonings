@@ -38,10 +38,25 @@ Block Producers shall execute code that defines a collective decision making pro
 ### Article XXX - Block Producer Voting
 EOS Token Holders shall elect Block Producers through a continuous approval voting system based on thier ability to effectively produce blocks, contribute to the EOS ecosystem and operate in accordance to this governing document.  EOS Token Holder votes shall decay approximately 1% per week.
 
+### Article XXX - On-Chain Referendum Voting
+Referendums must be submitted on-chain either in full text or as a hash of the referendum text. A Referendum is considered approved for execution when; 
+
+* At least 15% of issued tokens have staked and registered a vote for a specific referendum,
+
+* Affirmative tokens exceed the number of negative staked tokens by a difference of no less than 10% of total percentage of registered votes (i.e. 55% yes, 45% no). 
+
+* These requirements must remain satisfied above the minimum requirements for a period of at least 30 consecutive days within a 120-day sustainment period per Referendum. Should a Referendum not be approved for execution within the 120-day period, it is considered expired and must be resubmitted if another vote is desired. The 120-day period starts when the transaction which includes a referendum is appended to the blockchain. EOS tokens issued during the 120-period are counted toward the total issued amount calculation.  Referendums may then be enacted by a super majority of Block Producers defined as 15 of the 21 elected Block Producers.
+
 ### Article XXX - Sanctity and Governence of Contract
 Block producers shall not freeze or modify contracts, except;
 
 * When Block Producers deem a contract not operating as intended. The determination of the intent of code by Block Producers shall consider code, human-readable and machine-redable Ricardian Contracts, user interfaces, and actual use. If there is a dispute over the intent of code, then intent shall be determined by a super majority vote of elected Block Producers. A super majority is defined as 15 of the 21 elected Block Producers.  This super majority may, at their discretion, freeze a smart contract during an active dispute until such time as code to amend the smart contract is available and vetted. The parties to the dispute must produce proposed replacement code to the smart contract. Block Producers may charge a reasonable fee and/or place other reasonable requirements upon the parties to the dispute.  Ricardian contractual terms that cannot be enforced by properly functioning code are beyond the scope of the producers authority to evaluate and enforce.
+
+### Article XXX - Ricardian Contract Disclosure
+All service providers facilitating the construction and signing of transactions on behalf of EOS Account Holders shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
+
+### Article XXX - Ricardian Contract  Acceptance
+A Ricardian Contract is deemed accepted when a transaction based on that contract is incorporated into the blockchain.
 
 ### Article XXX - Self Liability
 Contributors to this system including smart contract developers and authors of governing documents are not liable for damages caused by unintentional bugs in code or unintentional effects of governing documents.  All Parties are responsible for auditing smart contracts and their equivalent Ricardian contract before use.
@@ -60,12 +75,6 @@ EOS accounts held in common to all EOS Account Holders and in proportion to thei
 * eosio.ramfee, 
 * eosio.saving.
 
-### Article XXX - Ricardian Contract Disclosure
-All service providers facilitating the construction and signing of transactions on behalf of EOS Account Holders shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
-
-### Article XXX - Ricardian Contract  Acceptance
-A Ricardian Contract is deemed accepted when a transaction based on that contract is incorporated into the blockchain.
-
 ### Article XXX - No Fiduciary Relationships
 No Party shall have a fiduciary responsibility to support the value of the EOS token. 
 
@@ -77,15 +86,6 @@ No Party shall claim a seat of governance or jurisdiction for the EOS Blockchain
 
 ### Article XXX - Voluntarily Consent
 All Parties voluntarily consent for all other Parties to permanently and irrevocably retain, copy, analyze, and distribute all broadcast transactions and derivative information. Use of the blockchain shall constitute consent to its terms.
-
-### Article XXX - On-Chain Referendums
-Referendums must be submitted on-chain either in full text or as a hash of the referendum text. A Referendum is considered approved for execution once 
-
-* at least 15% of issued tokens have staked and registered a vote for a specific referendum,
-
-* ‘affirmative’ tokens exceed the number of ‘negative’ staked tokens by a difference of no less than 10% of total percentage of registered votes (i.e. 55% yes, 45% no). 
-
-* These requirements must remain satisfied above the minimum requirements for a period of at least 30 consecutive days within a 120-day sustainment period per Referendum. Should a Referendum not be approved for execution within the 120-day period, it is considered expired and must be resubmitted if another vote is desired. The 120-day period starts when the transaction which includes a referendum is appended to the blockchain. EOS tokens issued during the 120-period are counted toward the total issued amount calculation.  Referendums may then be enacted by a super majority of Block Producers defined as 15 of the 21 elected Block Producers.
 
 ### Article XXX - Block Producer Nomination
 Block Producer `{{ producer }}` candidates shall nominate themselves and register their intent to produce blocks on the EOS Blockchain by executing the `{{ regproducer }}` contract.
