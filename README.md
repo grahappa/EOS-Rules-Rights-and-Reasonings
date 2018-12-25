@@ -5,6 +5,8 @@ For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 - todo - Woker Proposal system?
 - todo - ram
+- todo - bp compensation
+- todo - reorder rules
 
 -->
 
@@ -163,7 +165,7 @@ Block Producers shall not offer nor accept anything of value in exchange for a v
 ### Article XXX - No Service Provider Favor or Discrimination
 Block Producers shall execute no code that discriminates or favors any service provider over another.
 
-### Article XXX - Block Production Falsification
+### Article XXX - No Block Production Falsification
 Block Producers shall not derive profit by manipulating;
     
 * The order in which transactions are included into a block,
@@ -202,7 +204,7 @@ Block Producers shall not publish blocks with timestamps more than 500ms in the 
 ### Article XXX - Block Producer RAM Requirements
 Block Producers shall cease producing blocks if they are unable to provide the RAM as shown in the system parameters and approved by 15 of 21 Elected Block Producers.
 
-### Article XXX - Block Producer RAM Overstatement
+### Article XXX - No Block Producer RAM Overstatement
 Block Producers shall not set their RAM supply parameter to more RAM than their nodes actually contain.
 
 ### Article XXX - Block Production Order and Billing
