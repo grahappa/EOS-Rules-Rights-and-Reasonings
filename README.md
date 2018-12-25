@@ -64,7 +64,7 @@ Unstaked Tokens can be immediately Staked gaining;
 
 While losing transferability between accounts.
 
-Staked tokens can be Unstaked following a 72 hour unstaking period during which they lose; 
+Staked Tokens can be Unstaked following a 72 hour unstaking period during which they lose; 
 * Access to Processing and Network system resources and  
 * The right to vote for Block Producers or Referendums, 
 
@@ -157,6 +157,12 @@ Block Producers shall not interfere with the Block Producer or Referendum voting
 * Signing all objectively valid blocks they create that contain vote transactions,
 * Signing all pre-confirmations and confirmations necessary to facilitate transfer of control to the next set of Block Producers as determined by the system contract.
 
+### Article XXX - No Vote Buying or Trading
+Block Producers shall not offer nor accept anything of value in exchange for a vote of any type, nor shall any Member unduly influence the vote of another.
+
+### Article XXX - No Service Provider Favor or Discrimination
+Block Producers shall execute no code that discriminates or favors any service provider over another.
+
 ### Article XXX - Block Production Falsification
 Block Producers shall not derive profit by manipulating;
     
@@ -231,14 +237,8 @@ Block Producer shall be compensated for services provided from an automated annu
 
 <!-- WIP -->
 
-### Article XXX - No Service Provider Favor or Discrimination
-Block Producers shall execute no code that discriminates or favors any service provider over another.
-
 ### Article XXX - Block Producer Stand-bys 
 Block Producers shall execute no code that denies, abridges or impairs the Stand-by Block Producers in preparing to produce valid blocks or earn rewards.
-
-### Article XXX - No Vote Buying or Trading
-Block Producers shall not offer nor accept anything of value in exchange for a vote of any type, nor shall any Member unduly influence the vote of another.
 
 ### Article XXX - Scope of This Governing Document
 All actions executed on the EOS Blockchain are bound to the entirety of this governing document including those made directly by EOS Account Holders and any service providers on thier behalf.
