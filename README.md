@@ -1,15 +1,6 @@
 # EOS Blockchain Rules, Rights and Reasonings
 For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
-<!-- 
-
-- todo - Woker Proposal system?
-- todo - ram
-- todo - bp compensation
-- todo - reorder rules
-
--->
-
 ## Preamble 
 
 **We The Vested Account Holders of the EOS Blockchain,** 
@@ -44,8 +35,22 @@ Block Producers shall only execute code that is offered under an open source sof
 ### Article XXX - Delegated Proof of Stake
 Block Producers shall execute code that defines a collective decision making process to validate transactions thru a decentralized consensus algorithm known as Delegated Proof of Stake(DPOS), which shall be considered Byzantine Fault Tolerant(BFT) by it's capacity to coordinate strategic responsiveness to system fault or attack. 
 
+### Article XXX - Sanctity and Governence of Contract
+Block producers shall not freeze or modify contracts, except;
+
+* When a super-majority of 15 of 21 elected Block Producers deem a contract is not operating as intended. The determination of the intent of code by Block Producers shall consider code, human-and-machine-readable Ricardian Contracts, user interfaces, and actual use. If there is a dispute over the intent of code, then intent shall be determined by a super majority vote of elected Block Producers.  This super majority may, at their discretion, freeze a smart contract during an active dispute until such time as code to amend the smart contract is available and vetted. The parties to the dispute must produce proposed replacement code to the smart contract. Block Producers may charge a reasonable fee and/or place other reasonable requirements upon the parties to the dispute.  Ricardian contractual terms that cannot be enforced by properly functioning code are beyond the scope of the Block Producers authority to evaluate and enforce.
+
+### Article XXX - Ricardian Contract Disclosure
+All service providers facilitating the construction and signing of transactions on behalf of EOS Account Holders shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
+
+### Article XXX - Ricardian Contract  Acceptance
+A Ricardian Contract is deemed accepted when a transaction based on that contract is incorporated into the blockchain.
+
+### Article XXX - Self Liability
+Contributors to this system including smart contract developers and authors of governing documents are not liable for damages caused by unintentional bugs in code or unintentional effects of governing documents.  All Parties are responsible for auditing smart contracts and their equivalent Ricardian contract before use.
+
 ### Article XXX - Block Producer Voting
-EOS Token Holders shall elect Block Producers through a continuous approval voting system based on thier ability to effectively produce blocks, contribute to the EOS ecosystem and operate in accordance to this governing document.  EOS Token Holder votes shall decay approximately 1% per week.
+EOS Token Holders shall elect Block Producers through a continuous approval voting system based on thier ability to effectively produce blocks, process votes, contribute to the EOS ecosystem and operate in accordance to this governing document.  Block Producer votes shall decay over time at the rate of approximately 1% per week.
 
 ### Article XXX - On-Chain Referendum Voting
 Referendums must be submitted on-chain either in full text or as a hash of the referendum text. A Referendum is considered approved for execution when; 
@@ -71,20 +76,6 @@ Staked Tokens can be Unstaked following a 72 hour unstaking period during which 
 * The right to vote for Block Producers or Referendums, 
 
 While waiting to gain back transferability between accounts.
-
-### Article XXX - Sanctity and Governence of Contract
-Block producers shall not freeze or modify contracts, except;
-
-* When a super-majority of 15 of 21 elected Block Producers deem a contract is not operating as intended. The determination of the intent of code by Block Producers shall consider code, human-and-machine-readable Ricardian Contracts, user interfaces, and actual use. If there is a dispute over the intent of code, then intent shall be determined by a super majority vote of elected Block Producers.  This super majority may, at their discretion, freeze a smart contract during an active dispute until such time as code to amend the smart contract is available and vetted. The parties to the dispute must produce proposed replacement code to the smart contract. Block Producers may charge a reasonable fee and/or place other reasonable requirements upon the parties to the dispute.  Ricardian contractual terms that cannot be enforced by properly functioning code are beyond the scope of the Block Producers authority to evaluate and enforce.
-
-### Article XXX - Ricardian Contract Disclosure
-All service providers facilitating the construction and signing of transactions on behalf of EOS Account Holders shall present the full Ricardian Contract terms of this governing document and all other referenced smart contracts.
-
-### Article XXX - Ricardian Contract  Acceptance
-A Ricardian Contract is deemed accepted when a transaction based on that contract is incorporated into the blockchain.
-
-### Article XXX - Self Liability
-Contributors to this system including smart contract developers and authors of governing documents are not liable for damages caused by unintentional bugs in code or unintentional effects of governing documents.  All Parties are responsible for auditing smart contracts and their equivalent Ricardian contract before use.
 
 ### Article XXX - Native Unit of Utility
 The EOS token shall be the native unit of value representing access to utility resources on the EOS Network including but not limited to; 
@@ -119,6 +110,25 @@ Block Producers shall review, test, implement, optimize, and upgrade the code de
 
 ### Article XXX - Block Producer Nomination
 Block Producer `{{ producer }}` candidates shall nominate themselves and register their intent to produce blocks on the EOS Blockchain by executing the `{{ regproducer }}` contract.
+
+### Article XXX - Block Producer Rewards
+Block Producers shall be rewarded for block production and vote processing from an annual 1% rate of inflation to the EOS Token. Rewards shall be transferred from the `{{ eosio.bpay }}` and `{{ eosio.vpay }}` system accounts to the Block Producer account submitted to the `{{ regproducer }}` and calulated as follows;  
+
+* **Rewards for Block Production** `{{ eosio.bpay }}`
+    From the 1% inflation, .25% shall be paid on a per-block-created basis to the top 21 Block Producers determined by the number of votes they receive.
+
+* **Rewards for Vote Processing** `{{ eosio.vpay }}`
+    From the 1% inflation, .75% shall be paid on a pro-rata portion of the number of votes a Block Producer Candidate receives proportional to the total Block Producer votes cast, where the daily `{{ eosio.vpay }}` for a given Block Producer Candidate exceeds a threshold of 100 EOS Tokens.
+
+### Article XXX - Block Producer Classes
+* **Active Block Producer** 
+    Block Producers shall be considered **Active** when they are among the top 21 Block Producers as determined by the number of votes they receive which enables them to produce blocks.
+
+* **Stand-by Block Producer** 
+    Block Producers shall be considered **Stand-by** when they are not among the top 21 Block Producers as determined by the number of votes they receive, yet their vote processing rewards `{{ eosio.vpay }}` exceed the 100 EOS Tokens per day threshold.
+
+* **Candidate Block Producer** 
+    Block Producers shall be considered **Candidate** when they do not qualify as either a Stand-by or Active Block Producer, and therefore process no blocks and receive no rewards.
 
 ### Article XXX - Block Producer Keys
 Block Producers shall only use their {{producer_key}} to sign messages under the following scenarios:
@@ -209,38 +219,6 @@ Block Producers shall not set their RAM supply parameter to more RAM than their 
 
 ### Article XXX - Block Production Order and Billing
 Block Producers shall process transactions on a First-In-First-Out best-effort basis and to honestly bill transactions for measured execution time.
-
-<!-- WIP -->
-### Article XXX - Block Producer Compensation by Class
-
-Active Block Producer
-Stand-by Block Producer
-Candidate Block Producer
-
-Block Producer pay is raised from an annual 1% rate of inflation to the EOS token.  The amount of pay each Block Producer receives, if any, depends upon the amount of votes they receive from EOS Token Holders and is divided into three classes;
-
-* **Active** Block Producers
-* **Stand-by** Block Producers
-* **Candidate** Block Producers
-
-The top 21 Active Block Producers will share a 0.25% per block reward on a pro-rata basis to the number of blocks each one produces. All block producers (active + standby) will also earn a .75% per vote reward on a pro-rata basis to the total number of votes they receive.
-
-<!-- from eos canada -->
-There are three different classifications a Block Producer can fall into: 
-
-* 1) The Top 21 Block Producers that produce and validate blocks are paid a portion of block rewards and vote-based rewards, 
-* 2) A Standby Block Producer whose ranking is below 21, but receives enough votes to receive at least 100 EOS of vote-based reward within a given day, 
-* 3) All other Block Producer Candidates who have registered their account as a Candidate through the `regproducer` contract.
-
-The term 'Standby Producer' refers to all Producers who fall into the second classification above.
-
-Block Producer shall be compensated for services provided from an automated annual 1% rate of inflation to the EOS token and transferred from the `{{ eosio.vpay }}` account to their account submitted to the `{{ regproducer }}` contract.
-<!-- from eos canada -->
-
-<!-- WIP -->
-
-### Article XXX - Block Producer Stand-bys 
-Block Producers shall execute no code that denies, abridges or impairs the Stand-by Block Producers in preparing to produce valid blocks or earn rewards.
 
 ### Article XXX - Scope of This Governing Document
 All actions executed on the EOS Blockchain are bound to the entirety of this governing document including those made directly by EOS Account Holders and any service providers on thier behalf.
