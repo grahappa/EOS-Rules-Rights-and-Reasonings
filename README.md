@@ -34,9 +34,9 @@ From an infinite pool of candidates, the top twenty one Block Producers determin
 Block Producers shall only execute code that is offered under an open source software license.
 
 ### Article 3 - Delegated Proof of Stake
-Block Producers shall execute code that defines a collective decision making process to validate transactions thru a decentralized consensus algorithm known as Delegated Proof of Stake(DPOS), which shall be considered Byzantine Fault Tolerant(BFT) by it's capacity to coordinate strategic responsiveness to system fault or attack. 
+Block Producers shall execute code that defines a collective decision making process to validate transactions thru a decentralized consensus algorithm known as Delegated Proof of Stake(DPOS), which shall be considered Byzantine Fault Tolerant(BFT) by its capacity to coordinate strategic responsiveness to system fault or attack. 
 
-### Article 4 - Sanctity and Governence of Contract
+### Article 4 - Sanctity and Governance of Contract
 Block producers shall not freeze or modify contracts, except;
 
 * When a super-majority of 15 of 21 elected Block Producers deem a contract is not operating as intended. The determination of the intent of code by Block Producers shall consider code, human-and-machine-readable Ricardian Contracts, user interfaces, and actual use. If there is a dispute over the intent of code, then intent shall be determined by a super majority vote of elected Block Producers.  This super majority may, at their discretion, freeze a smart contract during an active dispute until such time as code to amend the smart contract is available and vetted. The parties to the dispute must produce proposed replacement code to the smart contract. Block Producers may charge a reasonable fee and/or place other reasonable requirements upon the parties to the dispute.  Ricardian contractual terms that cannot be enforced by properly functioning code are beyond the scope of the Block Producers authority to evaluate and enforce.
@@ -51,7 +51,7 @@ A Ricardian Contract is deemed accepted when a transaction based on that contrac
 Contributors to this system including smart contract developers and authors of governing documents are not liable for damages caused by unintentional bugs in code or unintentional effects of governing documents.  All Parties are responsible for auditing smart contracts and their equivalent Ricardian contract before use.
 
 ### Article 8 - Block Producer Voting
-EOS Token Holders shall elect Block Producers through a continuous approval voting system based on thier ability to effectively produce blocks, process votes, contribute to the EOS ecosystem and operate in accordance to this governing document.  Block Producer votes shall decay over time at the rate of approximately 1% per week.
+EOS Token Holders shall elect Block Producers through a continuous approval voting system based on their ability to effectively produce blocks, process votes, contribute to the EOS ecosystem and operate in accordance to this governing document.  Block Producer votes shall decay over time at the rate of approximately 1% per week.
 
 ### Article 9 - On-Chain Referendum Voting
 Referendums must be submitted on-chain either in full text or as a hash of the referendum text. A Referendum is considered approved for execution when; 
@@ -66,13 +66,13 @@ Referendums must be submitted on-chain either in full text or as a hash of the r
 Block Producers shall execute code that permits EOS Account Holders to delegate their right to cast Referendum or Block Producer votes to an EOS Vote Proxy of their choice.  Proxied votes of any kind, shall decay at the same rate as direct EOS Token Holder votes as defined in this governing document.  EOS Vote Proxies shall register their intent to proxy the votes of other EOS Account Holders by executing the `{{ regproxy }}` contract.  
 
 ### Article 11 - Token Status, Resource Access, Voting Rights and Transferability
-Unstaked Tokens can be immediately Staked gaining; 
+Un-staked Tokens can be immediately Staked gaining; 
 * Access to Processing and Network system resources and 
 * The right to vote for Block Producers or Referendums, 
 
 While losing transferability between accounts.
 
-Staked Tokens can be Unstaked following a 72 hour unstaking period during which they lose; 
+Staked Tokens can be Un-staked following a 72 hour un-staking period during which they lose; 
 * Access to Processing and Network system resources and  
 * The right to vote for Block Producers or Referendums, 
 
@@ -111,7 +111,7 @@ Block Producers shall review, test, implement, optimize, and upgrade the code de
 Block Producer `{{ producer }}` candidates shall nominate themselves and register their intent to produce blocks on the EOS Blockchain by executing the `{{ regproducer }}` contract.
 
 ### Article 20 - Block Producer Rewards
-Block Producers shall be rewarded for block production and vote processing from an annual 1% rate of inflation to the EOS Token. Rewards shall be transferred from the `{{ eosio.bpay }}` and `{{ eosio.vpay }}` system accounts to the Block Producer account submitted to the `{{ regproducer }}` and calulated as follows;  
+Block Producers shall be rewarded for block production and vote processing from an annual 1% rate of inflation to the EOS Token. Rewards shall be transferred from the `{{ eosio.bpay }}` and `{{ eosio.vpay }}` system accounts to the Block Producer account submitted to the `{{ regproducer }}` and calculated as follows;  
 
 * **Rewards for Block Production** `{{ eosio.bpay }}`
     From the 1% inflation, .25% shall be paid on a per-block-created basis to the top 21 Block Producers determined by the number of votes they receive.
@@ -120,6 +120,8 @@ Block Producers shall be rewarded for block production and vote processing from 
     From the 1% inflation, .75% shall be paid on a pro-rata portion of the number of votes a Block Producer Candidate receives proportional to the total Block Producer votes cast, where the daily `{{ eosio.vpay }}` for a given Block Producer Candidate exceeds a threshold of 100 EOS Tokens.
 
 ### Article 21 - Block Producer Classes
+Block Producers shall be set into three classes as follows;
+
 * **Active Block Producer** 
     Block Producers shall be considered **Active** when they are among the top 21 Block Producers as determined by the number of votes they receive which enables them to produce blocks.
 
@@ -220,13 +222,13 @@ Block Producers shall not set their RAM supply parameter to more RAM than their 
 Block Producers shall process transactions on a First-In-First-Out best-effort basis and to honestly bill transactions for measured execution time.
 
 ### Article 45 - Scope of This Governing Document
-All actions executed on the EOS Blockchain are bound to the entirety of this governing document including those made directly by EOS Account Holders and any service providers on thier behalf.
+All actions executed on the EOS Blockchain are bound to the entirety of this governing document including those made directly by EOS Account Holders and any service providers on their behalf.
 
 ### Article 46 - Amendments to This Governing Document
 This governing document may be amended by a direct vote Referendum in which all EOS Token holders may vote per proposal as prescribed in this document. Referendums proposing amendments to this governing document shall be considered ratified when 15 of 21 Block Producers execute code accepting the amended governing document. 
 
 ### Article 47 - Entire Agreement
-The contents of this Governing Document in it's entirety, represents an agreement of the entire understanding between All Parties with respect to its subject matter and supersedes any previous communication or agreements that may exist.
+The contents of this Governing Document in its entirety, represents an agreement of the entire understanding between All Parties with respect to its subject matter and supersedes any previous communication or agreements that may exist.
 
 
 ## Rights
