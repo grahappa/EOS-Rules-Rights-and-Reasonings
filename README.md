@@ -1,4 +1,5 @@
 # EOS Blockchain Rules, Rights and Reasonings
+## A Governing Document for the EOS Blockchain
 For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 ## Preamble 
