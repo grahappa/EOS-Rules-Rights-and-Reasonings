@@ -254,18 +254,15 @@ Block Producers shall execute no code that denies, abridges or impairs the direc
 ## Reasonings
 
 **When The Governed Yearn,** 
+* For free uncensored speech,
 * For resilience to corruption and interference,
 * For many sources of truth in perfect accordance,
-* For free market solutions to protect life liberty and property,
+* For solutions to protect life, liberty, and property,
 * For a peaceful society without the need for violence,
-* For free uncensored speech,
 
 **The People Resolve,**
 * To decentralize everything, 
 * To create an irreversible public record,
-* To open the source of our creative endeavors to the world,
-* To open the source of our creative endeavors to the world,
-* To open the source of our creative endeavors to the world,
 * To recouple the unit of value with it’s creator,
 * To open the source of our creative endeavors to the world,
 * To use technology to achieve what governments cannot,
