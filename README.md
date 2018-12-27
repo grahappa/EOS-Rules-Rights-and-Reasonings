@@ -253,14 +253,28 @@ Block Producers shall execute no code that denies, abridges or impairs the direc
 
 ## Reasonings
 
-### Article XXX - YYY clause
-Voluptatum illo tempore natus dignissimos est nisi. Ut quod eos pariatur et quisquam voluptate quis. Amet occaecati enim rerum nam veniam autem ut recusandae. Quam qui repudiandae molestiae incidunt quibusdam minima officiis. Voluptatum exercitationem qu…
+When the governed yearn, 
+For resilience to corruption and interference,
+For many sources of truth in perfect accordance,
+For free market solutions to protect life liberty and property,
+For a peaceful society without the need for violence,
+For free uncensored speech,
 
-### Article XXX - YYY clause
-Voluptatum illo tempore natus dignissimos est nisi. Ut quod eos pariatur et quisquam voluptate quis. Amet occaecati enim rerum nam veniam autem ut recusandae. Quam qui repudiandae molestiae incidunt quibusdam minima officiis. Voluptatum exercitationem qu…
+The people resolve, 
+To decentralize everything, 
+To create an irreversible public record,
+To recouple the unit of value with it’s creator,
+To open the source of our creative endeavors to the world,
+To use technology to achieve what governments cannot,
+To allow the individual the oversight of security, efficiency, accountability, and transparency,
+To reengineer business models,
+To reimagine how we live our lives,
+To align incentives and balance information asymmetries, 
+To build trust without intermediaries,
+To create a community focused on the common good,
+To dawn the next evolution of human assembly,
 
-### Article XXX - YYY clause
-Voluptatum illo tempore natus dignissimos est nisi. Ut quod eos pariatur et quisquam voluptate quis. Amet occaecati enim rerum nam veniam autem ut recusandae. Quam qui repudiandae molestiae incidunt quibusdam minima officiis. Voluptatum exercitationem qu…
+For a freer and more prosperous society.
 
 
 
