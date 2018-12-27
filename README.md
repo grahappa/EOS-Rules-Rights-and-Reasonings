@@ -253,28 +253,31 @@ Block Producers shall execute no code that denies, abridges or impairs the direc
 
 ## Reasonings
 
-When the governed yearn, 
-For resilience to corruption and interference,
-For many sources of truth in perfect accordance,
-For free market solutions to protect life liberty and property,
-For a peaceful society without the need for violence,
-For free uncensored speech,
+**When the governed yearn,** 
+* For resilience to corruption and interference,
+* For many sources of truth in perfect accordance,
+* For free market solutions to protect life liberty and property,
+* For a peaceful society without the need for violence,
+* For free uncensored speech,
 
-The people resolve, 
-To decentralize everything, 
-To create an irreversible public record,
-To recouple the unit of value with it’s creator,
-To open the source of our creative endeavors to the world,
-To use technology to achieve what governments cannot,
-To allow the individual the oversight of security, efficiency, accountability, and transparency,
-To reengineer business models,
-To reimagine how we live our lives,
-To align incentives and balance information asymmetries, 
-To build trust without intermediaries,
-To create a community focused on the common good,
-To dawn the next evolution of human assembly,
+**The people resolve,**
+* To decentralize everything, 
+* To create an irreversible public record,
+* To open the source of our creative endeavors to the world,
+* To open the source of our creative endeavors to the world,
+* To open the source of our creative endeavors to the world,
+* To recouple the unit of value with it’s creator,
+* To open the source of our creative endeavors to the world,
+* To use technology to achieve what governments cannot,
+* To allow the individual the oversight of security, efficiency, accountability, and transparency,
+* To reengineer business models,
+* To reimagine how we live our lives,
+* To align incentives and balance information asymmetries, 
+* To build trust without intermediaries,
+* To create a community focused on the common good,
+* To dawn the next evolution of human assembly,
 
-For a freer and more prosperous society.
+**For a freer and more prosperous society.**
 
 
 
