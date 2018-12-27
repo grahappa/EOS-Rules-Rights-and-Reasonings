@@ -1,5 +1,5 @@
-# EOS Blockchain Rules, Rights and Reasonings
-#### A Governing Document for the EOS Blockchain
+# EOS Rules, Rights and Reasonings
+#### An Open Source Governing Document Proposal for the EOS Blockchain
 For `chain_id`: aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 
 ## Preamble 
@@ -255,7 +255,7 @@ Block Producers shall execute no code that denies, abridges or impairs the direc
 ## Reasonings
 
 **When The Governed Yearn,** 
-* For free uncensored speech,
+* For uncensored free speech,
 * For resilience to corruption and interference,
 * For many sources of truth in perfect accordance,
 * For solutions to protect life, liberty, and property,
