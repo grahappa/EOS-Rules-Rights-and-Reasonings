@@ -88,13 +88,13 @@ The EOS token shall be the native unit of value representing access to utility r
 ### Article 13 - Common Accounts
 EOS accounts held in common to all EOS Account Holders and in proportion to their tokens include the following;
 
-* **Premium Account Name Auction Fund** {{ eosio.names }}
+* **Premium Account Name Auction Fund** `{{ eosio.names }}`
     Revenue from the sale of premium account names.
 
-* **RAM Trading Fee Fund** {{ eosio.ramfee }}
+* **RAM Trading Fee Fund** `{{ eosio.ramfee }}`
     Revenue from trading of Random Access Memory(RAM).
 
-* **General Savings Fund** {{ eosio.saving }}
+* **General Savings Fund** `{{ eosio.saving }}`
     Unallocated inflation of 4% to the EOS token supply that does not go directly to Block Producers Rewards for block production or vote processing.
 
 ### Article 14 - No Fiduciary Relationships
