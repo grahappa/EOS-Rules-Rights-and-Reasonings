@@ -85,12 +85,17 @@ The EOS token shall be the native unit of value representing access to utility r
 * Computation and Computational Backlog (CPU) and
 * State Storage (RAM).
 
-### Article 13 - Token-Weighted Common Accounts
+### Article 13 - Common Accounts
 EOS accounts held in common to all EOS Account Holders and in proportion to their tokens include the following;
 
-* eosio.names,
-* eosio.ramfee, 
-* eosio.saving.
+* **Premium Account Name Auction Fund** {{ eosio.names }}
+    Revenue from the sale of premium account names.
+
+* **RAM Trading Fee Fund** {{ eosio.ramfee }}
+    Revenue from trading of Random Access Memory(RAM).
+
+* **General Savings Fund** {{ eosio.saving }}
+    Unallocated inflation of 4% to the EOS token supply that does not go directly to Block Producers Rewards for block production or vote processing.
 
 ### Article 14 - No Fiduciary Relationships
 No Party shall have a fiduciary responsibility to support the value of the EOS token. 
